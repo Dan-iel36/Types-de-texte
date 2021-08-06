@@ -1,0 +1,90 @@
+html{
+	background: tan;
+	background-image: url('Pictures/download.jpeg');
+	padding: 15px;
+	margin: 15px;
+	align-content: center;
+	justify-content: center;
+	align-self: center;
+	display: grid;
+	font-weight: bolder;
+
+}
+
+body {
+	padding: 15px;
+	margin: 15px;
+	align-content: center;
+	justify-content: center;
+	align-self: center;
+	/*font-family: "abyssinica sil";
+	border: solid 20px green;
+	border-radius: 30px;
+	background-color: wheat;*/
+	opacity: 1;
+	line-height: 20px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	/*border-bottom: 3px solid purple;*/
+	text-shadow: 1px 1px 1px palegoldenrod;
+	font-family: pagal;
+	background-color: tan;
+	color: royalblue ;
+	background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+}
+
+
+ thead th,.head {
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: bolder;
+  font-style: italic;
+  font-family: "abyssinica sil";
+}
+
+td {
+  letter-spacing: 1px;
+  font-size: 20px;
+
+}
+
+
+ tr {
+	padding: 4px;
+	margin:  4px;
+	border-bottom: 4px double palevioletred;
+	background-color: tan;
+}
+
+#rep {
+	margin: 10px;
+	padding: 10px;
+	width: 350px;
+	height: 50px;
+	/*border: 12px palegreen hashed;
+	background-color: khaki;*/
+}
+
+
+#followUp {
+ 	display: none;
+ 	visibility: hidden;
+ 	margin: 10px;
+ 	padding: 10px;
+}
+
+input.followUp {
+	padding: 4px;
+	margin: 4px;
+	/*text-transform: uppercase;*/
+}
+
+h4 {
+	width: 500px;
+}
